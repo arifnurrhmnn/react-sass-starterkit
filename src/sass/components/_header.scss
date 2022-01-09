@@ -1,0 +1,11 @@
+header {
+  background-color: $color-primary-light;
+  .container {
+    background-color: $color-primary;
+  }
+  @include media(mobile) {
+    .container {
+      background-color: $color-secondary-dark;
+    }
+  }
+}
